@@ -3,4 +3,4 @@ COPY . /app
 WORKDIR /app
 RUN npm install
 EXPOSE 3001
-CMD run index.js
+CMD node index.js
